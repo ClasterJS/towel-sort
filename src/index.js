@@ -9,5 +9,5 @@ module.exports = function towelSort (matrix) {
         newArr[i].sort((a , b) => b - a);
       }
     }
-    return newArr;
+    return newArr.flat;
 }
